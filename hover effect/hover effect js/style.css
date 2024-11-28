@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100svh;
+}
+.effect-container {
+  position: relative;
+  font-size: 2rem;
+  overflow: hidden;
+  width: max-content;
+  border-bottom: 1px solid black;
+}
+
+.effect-container .hidden {
+  position: absolute;
+  left: 0;
+  top: 100%;
+}
+
+.effect-container span {
+  display: block;
+}
+.effect-container:hover {
+  cursor: pointer;
+}
+.effect-container.hover-in span {
+  animation: swipe 0.2s forwards;
+}
+
+.effect-container.hover-out span {
+  animation: swipe-reverse 0.2s forwards;
+}
+
+@keyframes swipe {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes swipe-reverse {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

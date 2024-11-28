@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Pilcrow Variable";
+  src: url("./fonts/PilcrowRounded-Variable.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Pilcrow Variable", Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.25rem;
+  color: #333;
+}
