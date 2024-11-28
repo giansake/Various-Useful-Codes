@@ -3,6 +3,10 @@
 In questa repository troverete un tot di cartelle con all'interno vari progetti HTML CSS e JavaScript.
 Di seguito un breve recap delle cartelle presenti ora
 
+## ⚠️ Nota bene
+
+Questa cartella cambierà nel corso dello svolgersi delle lezioni così potremo caricare qui un pò i diversi esempi e snippet di codice che emergeranno.
+
 ## Project Template
 
 - **html-css-js-project-template-main**
